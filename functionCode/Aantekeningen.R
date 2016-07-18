@@ -20,6 +20,7 @@ test <- function (formula, data, var.penalty = c("simple", "sandwich"))
 	m <- match.call(expand.dots = FALSE)
 	print (names(m))
 
+	# This matches the index in the 
 	mc <- match(c("formula", "data"), 
 		names(m), 0)
 	m <- m[c(1, mc)]
