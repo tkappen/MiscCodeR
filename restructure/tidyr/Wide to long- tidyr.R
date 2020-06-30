@@ -1,5 +1,5 @@
 ####################################
-# Process long data to wide format using tidyr
+# Process wide data to long format using tidyr
 ####################################
 
 library(tidyr)
